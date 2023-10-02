@@ -9,12 +9,12 @@ Projeto realizado durante a Semana Do Zero Ao Programador Contratado, evento rea
 - Veja os estados de foco para elementos interativos
 
 ## Desktop Preview
-![](./)
+![](./design/one-piece-desktop.gif)
 
 
 ### Mobile Preview
 
-![](./)
+![](./design/one-piece-mobile.gif)
 
 
 ## Tecnologias
