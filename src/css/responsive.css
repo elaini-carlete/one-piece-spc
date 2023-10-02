@@ -1,0 +1,65 @@
+@media (max-width: 769px) {
+    main::after {
+        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
+        width: 100vw;
+    }
+
+    .personagens .personagem .imagem-personagem{
+        height: 85%;
+    }
+
+    .personagens .personagem .informacoes-personagem{
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    .personagens .personagem .informacoes-personagem .nome-personagem{
+        font-size: 36px;
+    }
+
+    .personagens .personagem .informacoes-personagem .descricao-personagem{
+        max-width: 500px;
+    }
+
+    .btn-tripulacao{
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .btn-tripulacao .botao img{
+        max-width: 70px;
+    }
+}
+
+@media (max-width: 425px) {
+    .personagens .personagem .imagem-personagem{
+        height: auto;
+    }
+
+    .personagens .personagem .informacoes-personagem .logo{
+        width: 170px;
+        height: 75px;
+    }
+
+    .personagens .personagem .informacoes-personagem{
+        top: -20%;
+    }
+
+    .personagens .personagem .informacoes-personagem .nome-personagem{
+        font-size: 24px;
+    }
+
+    .btn-tripulacao{
+        padding: 20px;
+        top: -5%;
+    }
+
+    .btn-tripulacao .botao img{
+        max-width: 50px;
+    }
+}
