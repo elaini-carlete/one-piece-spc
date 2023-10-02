@@ -80,7 +80,7 @@ main::after{
 .btn-tripulacao .botao{
     cursor: pointer;
     border: none;
-    background: none;
+    background: #000000;
     border-radius: 50%;
 }
 
